@@ -1,0 +1,26 @@
+# FastAPI for building APIs
+fastapi==0.95.2
+
+# Asynchronous PostgreSQL database driver
+asyncpg==0.27.0
+
+# Sentence Transformers for embedding generation
+sentence-transformers==2.2.2
+
+# NumPy for vector operations
+numpy==1.23.5
+
+# PGVector support for storing and querying embeddings in PostgreSQL
+pgvector==0.0.6
+
+# OpenAI API for Retrieval-Augmented Generation (RAG)
+openai==0.27.8
+
+# Redis for caching
+aioredis==2.0.1
+
+# Gunicorn for running the application in production
+gunicorn==20.1.0
+
+# Optional: Uvicorn for local development server
+uvicorn[standard]==0.22.0
